@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.okitsu.slashbladeysmrenderpatch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SlashBladeUserPoseOverriderMixin",
+    "YsmSlashBladeCompatMixin",
+    "YsmSlashBladeItemLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
